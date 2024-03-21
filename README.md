@@ -14,7 +14,7 @@ Recuerda siempre que debes hacer un `npm i` del repositorio para tener todas las
 `src/Task.js`: Este componente muestra una tarea individual y maneja los eventos de clic en la tarea.
 `src/AddTaskForm.js`: Este componente proporciona un formulario para agregar nuevas tareas a la lista.
 
-3. Cada componente que tiene:
+### Cada componente tiene:
 *** APP.jsx: ***
 - Aquí tendremos de inicio unos datos como tareas para poder trabajar con ellos.
 
@@ -35,6 +35,7 @@ Lo tendrás ya incluido en el proyecto
 Recuerda que al añadir el la nueva tarea se tienen que mantener las anteriores.
 
 - Necesitaremos una función `deleteTask` que elimine las tareas.
+
 *** PISTA *** 
 Para eliminar puedes usar algo así
 ```js
@@ -42,6 +43,7 @@ setTasks(tasks.filter(task => task.id !== taskId));
 ```
 
 - Y tendrás que crear una función que al pulsar en la tarea se tache o se quite el tachado.
+
 *** PISTA ***
 Habrá que pasar el `complete` de false a true, y cuando esté en true la tarea saldrá tachada. Esta atributo tacha el texto `line-through` y se puede añadir como style en línea, de esta manera. Piensa que puedes hacer un ternario dependiendo la evalución de si está en `true` o `false`.
 Esta función se activará o desactivará cuando hagamos click en cada una de las tareas. 
