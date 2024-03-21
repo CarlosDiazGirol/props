@@ -73,7 +73,10 @@ Aquí tendremos cada una de las tareas con las funcionalidades de `borrar` y `ma
 #### CONSEJOS
 - Hacedlo paso a paso.
 - Comprobad que algo funciona antes de pasar a la siguiente tarea.
-- Crea lo que vas a usar, lo que no, lo dejamos para el siguiente paso. 
+- Crea lo que vas a usar, lo que no, lo dejamos para el siguiente paso.
+
+Aquí un ejemplo de como debería de quedar:
+![Lista de tareas](./src/assets/listadetareas.png)
 
 
 
