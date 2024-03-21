@@ -16,7 +16,7 @@ Recuerda siempre que debes hacer un `npm i` del repositorio para tener todas las
 
 ### Cada componente tiene:
 
-#### APP.jsx:
+#### * APP.jsx:
 - Aquí tendremos de inicio unos datos como tareas para poder trabajar con ellos.
 
 ```js
@@ -32,6 +32,8 @@ Lo tendrás ya incluido en el proyecto
 1. Un id -> Contabilizaremos cuantos elementos hay en el array y añadiremos el suguiente número como `id`
 2. Una tarea -> Sacaremos ese valor del input que tenemos que crear en `addTaskForm.jsx`
 3. Tarea completada -> La crearemos por defecto en `false`
+
+*** PISTA *** 
 
 Recuerda que al añadir el la nueva tarea se tienen que mantener las anteriores.
 
@@ -62,10 +64,10 @@ style={{ textDecoration: 'line-through'}}
 Y también es donde haremos que se rendericen nuestros datos y componentes.
 
             
-#### AddTaskForm.jsx:
+#### * AddTaskForm.jsx:
 Crearemos un input que recoja el valor y añada las tarea al resto de tareas
 
-#### Task.jsx
+#### * Task.jsx
 Aquí tendremos cada una de las tareas con las funcionalidades de `borrar` y `marcar como completada`. 
 
 #### CONSEJOS
